@@ -1,15 +1,17 @@
 .header {
 	position: relative;
+	display: block;
 
 }
 
 .header-logo {
-	position: absolute
-	
+	position: absolute;
+
 }
 
 .header-pic {
-	position: absolute
+	position: absolute;
+	width: 100%;
 }
 
 .s-plogo {
@@ -20,9 +22,39 @@
 	
 }
 
-.body-left {
+.about-block {
 	
+}
 
+.about {
+	
+}
+
+.mag-lense {
+	
+}
+
+.title-block {
+	
+}
+
+.s-ptitle {
+	
+}
+
+.subtitle {
+	
+}
+
+.middle {
+	position: relative;
+	display: block;
+}
+
+.body-left {
+	position: absolute;
+	width: 65%;
+	
 }
 
 .headline {
@@ -84,7 +116,9 @@
 }
 
 .body-right {
-	
+	display: inline-block;
+	position: absolute;
+	width: 35%;
 }
 
 .aside-pic {
@@ -116,7 +150,8 @@
 }
 
 .footer {
-	
+	position: relative;
+	display: block;
 }
 
 .footer-headline {
