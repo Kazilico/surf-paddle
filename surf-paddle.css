@@ -91,7 +91,7 @@ body {
 }
 
 .credit {
-	
+
 }
 
 .credit-avatar {
@@ -99,20 +99,35 @@ body {
 }
 
 .name {
-	
-
+	font-family: Open Sans;
+	color: #1568B0;	
+	vertical-align: 10px;
+	margin-left: 20px;
 }
 
 .dateline {
-	
+	font-family: Open Sans;
+	color: #CBCBCB;
+	vertical-align: 10px;
+	margin-left: 15px;
+
 }
 
 .ipsums {
-	
+	font-family: Open Sans;
+	color: #545F67;
+}
+
+.underline {
+	color: #ACBAC6;
 }
 
 .radical {
-	
+	font-family: Open Sans;
+	color: #0061AD;
+	border-left-color: #ACBAC6;
+	border-left-style: solid;
+	padding: 50px;
 }
 
 .text-links {
@@ -146,19 +161,28 @@ body {
 
 .body-right {
 	display: inline-block;
-	width: 35%;
+	width: 25%;
+	box-sizing: border-box;
+	padding: 15px;
 	}
 
 .aside-pic {
-	
+	position: relative;
+	margin-bottom: 50px;
+	margin-left: 90px;
 }
 
 .aside-name {
-	
+	position: relative;
+	font-family: Open Sans;
+	color: #0061AD;
+	top: -10px;
+	right: 85px;
 }
 
 .aside-links {
-	
+	font-family: Open Sans;
+	color: #CBCBCB;
 }
 
 .ad-pic {
@@ -166,15 +190,18 @@ body {
 }
 
 .adlink {
-	
+	font-family: Open Sans;
+	color: #CBCBCB;
 }
 
 .aside-header {
-	
+	font-family: Oswald;
+	color: #0061AD;
 }
 
 .aside-ipsum {
-	
+	font-family: Open Sans;
+	font-color: #CBCBCB;
 }
 
 .footer {
