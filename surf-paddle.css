@@ -1,3 +1,12 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+	display: block;
+}
+
 .header {
 	position: relative;
 	display: block;
@@ -6,11 +15,14 @@
 
 .header-logo {
 	position: absolute;
+	display: block;
+	top: 25px;
+	left: 170px;
+
 
 }
 
 .header-pic {
-	position: absolute;
 	width: 100%;
 }
 
@@ -19,6 +31,8 @@
 }
 
 .logo-text {
+
+	font-family: Open Sans;
 	
 }
 
@@ -52,8 +66,9 @@
 }
 
 .body-left {
-	position: absolute;
+	display: inline-block;
 	width: 65%;
+
 	
 }
 
@@ -117,9 +132,8 @@
 
 .body-right {
 	display: inline-block;
-	position: absolute;
 	width: 35%;
-}
+	}
 
 .aside-pic {
 	
