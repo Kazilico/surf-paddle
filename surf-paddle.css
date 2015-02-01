@@ -27,21 +27,26 @@ body {
 }
 
 .s-plogo {
-	
+	display: inline-box;
 }
 
 .logo-text {
-
+	display: inline box;
 	font-family: Open Sans;
-	
+	margin-left: 26px;
+	vertical-align: 17px;
 }
 
 .about-block {
-	
+	position: absolute;
+	display: block;
+	top: 35px;
+	right: 150px;	
 }
 
 .about {
-	
+	font-family: Oswald;
+	font-color: #083451
 }
 
 .mag-lense {
@@ -49,15 +54,22 @@ body {
 }
 
 .title-block {
-	
+	position: absolute;
+	width: 860px;
+	left: 320px;
+	top: 210px;
 }
 
 .s-ptitle {
-	
+	font-family: Open Sans;
+	color: #FFFFFF;
+	font-size: 90px;
 }
 
 .subtitle {
-	
+	font-family: Open Sans;
+	color: #083451;
+	padding: 260px;
 }
 
 .middle {
@@ -68,12 +80,14 @@ body {
 .body-left {
 	display: inline-block;
 	width: 65%;
-
-	
+	box-sizing: border-box;
+	padding-left: 200px;
 }
 
 .headline {
-	
+	font-family: Oswald;
+	font-size: 75px;
+	color: #083451;
 }
 
 .credit {
@@ -81,7 +95,7 @@ body {
 }
 
 .credit-avatar {
-	
+	max-width: 30px;
 }
 
 .name {
