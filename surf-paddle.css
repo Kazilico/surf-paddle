@@ -5,6 +5,7 @@
 
 body {
 	display: block;
+	margin: 0;
 }
 
 .header {
@@ -75,6 +76,8 @@ body {
 .middle {
 	position: relative;
 	display: block;
+	width: 100%;
+	height: 1000px;
 }
 
 .body-left {
@@ -82,6 +85,7 @@ body {
 	width: 65%;
 	box-sizing: border-box;
 	padding-left: 200px;
+	float: left
 }
 
 .headline {
@@ -124,11 +128,11 @@ body {
 
 .radical {
 	font-family: Open Sans;
-	font-size: 25px;
+	font-size: 28px;
 	color: #0061AD;
 	border-left-color: #ACBAC6;
 	border-left-style: solid;
-	padding: 50px;
+	padding: 25px;
 	margin-left: 10px;
 }
 
@@ -201,9 +205,13 @@ body {
 
 .body-right {
 	display: inline-block;
+	position: relative;
 	width: 25%;
 	box-sizing: border-box;
+	margin-bottom: 260px;
 	padding: 15px;
+	top: 60px;
+	float: left;
 	}
 
 .aside-pic {
@@ -233,10 +241,11 @@ body {
 	margin-top: 45px; 
 }
 
-.ad-link {
+.link {
 	position: relative;
 	font-family: Open Sans;
 	color: #CBCBCB;
+	text-decoration: underline;
 	margin-top: 35px;
 	padding: 5px;
 	left: 185px;
@@ -257,18 +266,33 @@ body {
 .footer {
 	position: relative;
 	display: block;
+	border-top-style: solid;
+	border-top-color: #ACBAC6;
+	border-top-width: 1px;
 }
 
 .footer-headline {
-	
+	font-family: Oswald;
+	font-size: 80px;
+	color: #083451;
+	margin-left: 360px;
 }
 
 .footer-photos {
-	
+	display: block;
+	position: relative;
+	width: 100%;
 }
 
 .photo1 {
-	
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.pic1 {
+	width:100%
 }
 
 .overlay {
@@ -280,15 +304,36 @@ body {
 }
 
 .photo2 {
-	
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.pic2 {
+	width:100%
 }
 
 .photo3 {
-	
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.pic3 {
+	width:100%
 }
 
 .photo4 {
-	
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.pic4 {
+	width:100%
 }
 
 .footer-bar {
