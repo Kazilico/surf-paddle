@@ -124,14 +124,21 @@ body {
 
 .radical {
 	font-family: Open Sans;
+	font-size: 25px;
 	color: #0061AD;
 	border-left-color: #ACBAC6;
 	border-left-style: solid;
 	padding: 50px;
+	margin-left: 10px;
+}
+
+.rollover {
+	color: #0061AD;
 }
 
 .text-links {
-	
+	max-width: 600px;
+	max-height: 40px;
 }
 
 .read-links {
@@ -140,23 +147,56 @@ body {
 }
 
 .comment-links {
-	
+	display: inline-block;
+	position: relative;
+	background-color: #545F67;
+	color: white;
+	width: 21px;
+	padding: 10px;
 }
 
 .comment-text {
-	
+	display: inline-block;
+	position: relative;
+	background-color: #ACBAC6;
+	max-height: 40px;
+	width: 130px;
+	padding: 9px;
+	font-family: Open Sans;
+	color: white;
+	top: -14px;
+	right: 4px;
 }
 
 .read {
-	
+	display: inline-block;
+	position: relative;
+	background-color: #545F67;
+	color: white;
+	width: 27px;
+	padding:10px;
 }
 
-.share-links {
-	
+.share {
+	display: inline-block;
+	position: relative;
+	background-color: #083452;
+	color: white;
+	width: 21px;
+	padding: 11px;
 }
 
 .share-text {
-	
+	display: inline-block;
+	position: relative;
+	background-color: #106DB3;
+	max-height: 40px;
+	width: 130px;
+	padding: 9px;
+	font-family: Open Sans;
+	color: white;
+	top: -14px;
+	right: 4px;
 }
 
 .body-right {
@@ -181,27 +221,37 @@ body {
 }
 
 .aside-links {
+	position: relative;
 	font-family: Open Sans;
 	color: #CBCBCB;
+	padding: 40px;
+
 }
 
 .ad-pic {
-	
+	position: relative;
+	margin-top: 45px; 
 }
 
-.adlink {
+.ad-link {
+	position: relative;
 	font-family: Open Sans;
 	color: #CBCBCB;
+	margin-top: 35px;
+	padding: 5px;
+	left: 185px;
 }
 
 .aside-header {
+	position: relative;
 	font-family: Oswald;
 	color: #0061AD;
 }
 
 .aside-ipsum {
+	position: relative;
 	font-family: Open Sans;
-	font-color: #CBCBCB;
+	color: #CBCBCB;
 }
 
 .footer {
