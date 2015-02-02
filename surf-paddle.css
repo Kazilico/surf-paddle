@@ -282,6 +282,8 @@ body {
 	display: block;
 	position: relative;
 	width: 100%;
+	height: 367px;
+	font-family: Oswald;
 }
 
 .photo1 {
@@ -292,15 +294,26 @@ body {
 }
 
 .pic1 {
-	width:100%
+	width:100%;
 }
 
-.overlay {
-	
+
+.overlay1 {
+	position: absolute;
+	width: 100%;
+	height: 365px;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .4;
 }
 
-.photo-text {
-	
+.text1 {
+	position: absolute;
+	font-size: 35px;
+	color: #083452;
+	padding-left: 20px;
+	top: 300px;
 }
 
 .photo2 {
@@ -311,7 +324,26 @@ body {
 }
 
 .pic2 {
-	width:100%
+	width:100%;
+}
+
+.overlay2 {
+	position: absolute;
+	width: 100%;
+	height: 365px;
+	background: #106DB3;
+	color: white;
+	top: 0;
+	right: 0;
+	opacity: .2;
+}
+
+.text2 {
+	position: absolute;
+	font-size: 35px;
+	color: #FDFDFC;
+	padding-left: 20px;
+	top: 300px;
 }
 
 .photo3 {
@@ -322,7 +354,26 @@ body {
 }
 
 .pic3 {
-	width:100%
+	width:100%;
+}
+
+.overlay3 {
+	position: absolute;
+	width: 100%;
+	height: 365px;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .7;
+}
+
+.text3 {
+	position: absolute;
+	font-size: 35px;
+	color: #083452;
+	top: 250px;
+	padding-left: 20px;
+	padding-right: 70px;
 }
 
 .photo4 {
@@ -334,6 +385,25 @@ body {
 
 .pic4 {
 	width:100%
+}
+
+.overlay4 {
+	position: absolute;
+	width: 100%;
+	height: 365px;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .7;
+}
+
+.text4 {
+	position: absolute;
+	font-size: 35px;
+	color: #083452;
+	top: 300px;
+	padding-left: 20px;
+	padding-right: 70px;
 }
 
 .footer-bar {
