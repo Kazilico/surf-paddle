@@ -94,15 +94,13 @@ body {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 1000px;
 }
 
 .body-left {
 	display: inline-block;
-	width: 65%;
+	width: 61%;
 	box-sizing: border-box;
-	padding-left: 200px;
-	float: left
+	padding-left: 130px;
 }
 
 .headline {
@@ -137,6 +135,8 @@ body {
 .ipsums {
 	font-family: Open Sans;
 	color: #545F67;
+	font-size: 19px;
+	font-weight: bold;
 }
 
 .underline {
@@ -145,12 +145,12 @@ body {
 
 .radical {
 	font-family: Open Sans;
-	font-size: 28px;
+	font-size: 32px;
 	color: #0061AD;
 	border-left-color: #ACBAC6;
 	border-left-style: solid;
 	padding: 25px;
-	margin-left: 10px;
+	margin-left: 8px;
 }
 
 .rollover {
@@ -163,8 +163,7 @@ body {
 }
 
 .read-links {
-	
-
+	display: inline-block;
 }
 
 .comment-links {
@@ -220,64 +219,80 @@ body {
 	right: 4px;
 }
 
+.share-links {
+	display: inline-block;
+}
+
 .body-right {
 	display: inline-block;
 	position: relative;
 	width: 25%;
 	box-sizing: border-box;
-	margin-bottom: 260px;
-	padding: 15px;
+	margin-left: 89px;
+	margin-bottom: 247px;
+	padding: 32px 0px;
 	top: 60px;
-	float: left;
-	}
+	vertical-align: top;
+}
+
+.pic-container {
+	padding-right: 23px;
+	text-align: center;
+}
 
 .aside-pic {
-	position: relative;
-	margin-bottom: 50px;
-	margin-left: 90px;
+	width: 100px;
 }
 
 .aside-name {
-	position: relative;
 	font-family: Open Sans;
 	color: #0061AD;
-	top: -10px;
-	right: 85px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 9px;
 }
 
 .aside-links {
 	position: relative;
 	font-family: Open Sans;
+	font-weight: bold;
 	color: #CBCBCB;
-	padding: 40px;
+}
 
+.aside-link-each {
+	display: inline-block;
+	padding: 8px;
 }
 
 .ad-pic {
 	position: relative;
+	width: 93%;
 	margin-top: 45px; 
 }
 
 .link {
 	position: relative;
 	font-family: Open Sans;
+	font-weight: bold;
 	color: #CBCBCB;
 	text-decoration: underline;
-	margin-top: 35px;
-	padding: 5px;
-	left: 185px;
+	left: 231px;
 }
 
 .aside-header {
 	position: relative;
 	font-family: Oswald;
+	font-size: 22px;
 	color: #0061AD;
+	top: 33px;
 }
 
 .aside-ipsum {
 	position: relative;
 	font-family: Open Sans;
 	color: #CBCBCB;
+	font-size: 18px;
+	margin-top: 40px;
 }
 
 .footer {
@@ -286,31 +301,33 @@ body {
 	border-top-style: solid;
 	border-top-color: #ACBAC6;
 	border-top-width: 1px;
+	font-size: 0px;
 }
 
 .footer-headline {
+	display: block;
 	font-family: Oswald;
-	font-size: 80px;
+	font-size: 76px;
 	color: #083451;
-	margin-left: 360px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 33px;
 }
 
 .footer-photos {
 	display: block;
 	position: relative;
 	width: 100%;
-	height: 367px;
 	font-family: Oswald;
 }
 
-.photo1 {
+.photo {
 	display: inline-block;
 	position: relative;
 	width: 25%;
-	float: left;
 }
 
-.pic1 {
+.pic {
 	width:100%;
 }
 
@@ -318,11 +335,40 @@ body {
 .overlay1 {
 	position: absolute;
 	width: 100%;
-	height: 365px;
+	height: 100%;
 	background: #106DB3;
 	top: 0;
 	right: 0;
-	opacity: .4;
+	opacity: .7;
+}
+
+.overlay2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .3;
+}
+.overlay3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .7;
+}
+
+.overlay4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #106DB3;
+	top: 0;
+	right: 0;
+	opacity: .7;
 }
 
 .text1 {
@@ -330,104 +376,41 @@ body {
 	font-size: 35px;
 	color: #083452;
 	padding-left: 20px;
-	top: 300px;
-}
-
-.photo2 {
-	display: inline-block;
-	position: relative;
-	width: 25%;
-	float: left;
-}
-
-.pic2 {
-	width:100%;
-}
-
-.overlay2 {
-	position: absolute;
-	width: 100%;
-	height: 365px;
-	background: #106DB3;
-	color: white;
-	top: 0;
-	right: 0;
-	opacity: .2;
+	bottom: 10px;
+	left: 0px;
 }
 
 .text2 {
 	position: absolute;
 	font-size: 35px;
-	color: #FDFDFC;
+	color: white;
 	padding-left: 20px;
-	top: 300px;
-}
-
-.photo3 {
-	display: inline-block;
-	position: relative;
-	width: 25%;
-	float: left;
-}
-
-.pic3 {
-	width:100%;
-}
-
-.overlay3 {
-	position: absolute;
-	width: 100%;
-	height: 365px;
-	background: #106DB3;
-	top: 0;
-	right: 0;
-	opacity: .7;
+	bottom: 10px;
+	left: 0px;
 }
 
 .text3 {
 	position: absolute;
 	font-size: 35px;
 	color: #083452;
-	top: 250px;
 	padding-left: 20px;
-	padding-right: 70px;
-}
-
-.photo4 {
-	display: inline-block;
-	position: relative;
-	width: 25%;
-	float: left;
-}
-
-.pic4 {
-	width:100%
-}
-
-.overlay4 {
-	position: absolute;
-	width: 100%;
-	height: 365px;
-	background: #106DB3;
-	top: 0;
-	right: 0;
-	opacity: .7;
+	bottom: 10px;
+	left: 0px;
 }
 
 .text4 {
 	position: absolute;
 	font-size: 35px;
 	color: #083452;
-	top: 300px;
 	padding-left: 20px;
-	padding-right: 70px;
+	bottom: 10px;
+	left: 0px;
 }
 
 .footer-bar {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 100px;
-	top: 593px;
 	background-color: #06314D;
 }
 
@@ -448,18 +431,15 @@ body {
 	font-size: 15px;
 }
 
+
 .footer-nav {
-	display: block;
+	display: inline-block;
 	position: absolute;
+	font-family: Open Sans;
 }
 
 .footer-nav a:link, a:hover, a:visited, a:active {
 	color: #AAB8C3;
-}
-
-a:-webkit-any-link{
-	text-decoration:none !important;
-	font-family: Open Sans;
 }
 
 .nav1, .nav2, .nav3, .nav4 {
@@ -468,6 +448,8 @@ a:-webkit-any-link{
 	top: 40px;
 	color: #AABBC3;
 	font-size: 15px;
+	font-family: Open Sans;
+	text-decoration: none;
 }
 
 .nav1 {
@@ -486,3 +468,4 @@ a:-webkit-any-link{
 .nav4 {
 	left: 1220px;
 }
+
