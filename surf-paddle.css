@@ -69,7 +69,7 @@ body {
 .title-block {
 	display: block;
 	position: absolute;
-	width: 1150px;
+	width: 85%;
 	left: 170px;
 	top: 224px;
 }
@@ -436,10 +436,12 @@ body {
 	display: inline-block;
 	position: absolute;
 	font-family: Open Sans;
+	text-decoration: none;
 }
 
-.footer-nav a:link, a:hover, a:visited, a:active {
+.footer-nav a:link, a:hover, a:visited, a:active, a {
 	color: #AAB8C3;
+	text-decoration: none;
 }
 
 .nav1, .nav2, .nav3, .nav4 {
@@ -454,18 +456,21 @@ body {
 
 .nav1 {
 	left: 920px;
-
+	text-decoration: none;
 }
 
 .nav2 {
 	left: 1020px;
+	text-decoration: none;
 }
 
 .nav3 {
 	left: 1120px;
+	text-decoration: none;
 }
 
 .nav4 {
 	left: 1220px;
+	text-decoration: none;
 }
 
